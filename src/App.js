@@ -37,7 +37,7 @@ function App() {
             <div className="d-flex align-items-center ms-auto">
               <Button
                 variant="outline-dark"
-                className="language-btn"
+                className="language-btn language-btn-en"
                 onClick={() => changeLanguage('en')}
                 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}
               >
@@ -46,7 +46,7 @@ EN
               </Button>
               <Button
                 variant="outline-dark"
-                className="language-btn"
+                className="language-btn language-btn-fr"
                 onClick={() => changeLanguage('fr')}
                 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginLeft: '0.5rem' }}
               >
@@ -56,6 +56,7 @@ EN
             </div>
           </Container>
         </Navbar>
+        
         <div className="container mt-4">
           <ObesityChart />
         </div>

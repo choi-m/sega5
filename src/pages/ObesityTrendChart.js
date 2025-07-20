@@ -28,7 +28,10 @@ const ObesityTrendChart = () => {
   return (
     <div>
       <div className="chart-header">{t("obesityTrendChart.title")}</div>
-      <div className="chart-blurb">{t("blurb")}</div>
+         <div className="chart-description">
+  {t('description2')}
+</div>
+    
       <div style={{ padding: "1rem" }}>
         <ResponsiveContainer width="100%" height={300}>
           <LineChart data={data} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
@@ -41,6 +44,7 @@ const ObesityTrendChart = () => {
           </LineChart>
         </ResponsiveContainer>
       </div>
+        <div className="chart-blurb">{t("blurb")}</div>
     </div>
   );
 };

@@ -16,6 +16,27 @@ h4, h3, .subheading {
   font-size: 1.2rem;
 }
 
+.chart-description {
+  color: #222;
+  background: #fff;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 0.7rem 1.2rem;
+  margin: 0 auto 0.7rem auto;
+  max-width: 700px;
+  transition: box-shadow 0.3s, transform 0.3s, padding 0.3s;
+  cursor: pointer;
+}
+
+.chart-description:hover {
+  box-shadow: 0 6px 24px rgba(33,150,243,0.18);
+  transform: scale(1.04);
+  padding: 1.2rem 2rem;
+}
+
 .blurb {
   font-size: 0.95rem;
   color: #555;
@@ -24,7 +45,7 @@ h4, h3, .subheading {
 }
 
 .navbar {
-  background: linear-gradient(90deg, #aee1f9 0%, #1976d2 100%) !important;
+  background: linear-gradient(90deg, #2f91bf 0%, #1976d2 100%) !important;
   box-shadow: 0 2px 12px rgba(0,0,0,0.12);
 }
 
@@ -54,17 +75,42 @@ h4, h3, .subheading {
 }
 
 .language-btn {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Amiko', Arial, sans-serif;
   font-weight: 700;
-  border-radius: 8px;
-  transition: background 0.2s, color 0.2s;
-  background: #222;
-  color: #fff;
-  border: 1px solid #444;
+  border-radius: 10px;
+  background: #fff;
+  color: #1c2589;
+  border: 2px solid #1976d2;
+  padding: 0.45rem 1.1rem;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 .language-btn:hover {
-  background: #ff9800;
-  color: #000;
+  background: #022348;
+  color: #fff;
+  border-color: #1565c0;
+}
+
+.language-btn-en {
+  background: #e3f2fd !important; 
+  color: #0d47a1 !important;      
+  border-color: #1976d2 !important;
+}
+.language-btn-en:hover {
+  background: #084a8c !important; 
+  color: #fff !important;
+  border-color: #1976d2 !important;
+}
+
+.language-btn-fr {
+  background: #fff3f0 !important; 
+  color: #b71c1c !important;      
+  border-color: #ef4135 !important;
+}
+.language-btn-fr:hover {
+  background: #ef4135 !important; 
+  color: #fff !important;
+  border-color: #ef4135 !important;
 }
 
 .main-title {
@@ -112,4 +158,13 @@ h4, h3, .subheading {
   color: #888;
   margin-bottom: 1.2rem;
   margin-left: 10%;
+}
+
+.text-blue {
+  color: #084a8c;
+  font-weight: bold;
+}
+.text-orange {
+  color: #ff7900;
+  font-weight: bold;
 }

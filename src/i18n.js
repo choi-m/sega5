@@ -7,7 +7,9 @@ const resources = {
     translation: {
       "titleRadar": "Obesity Dashboard",
       "dashboardIntro": "This is a bilingual dashboard displaying obesity and overweight rates by age group in Canada (2022). The data is for visualization purposes only.",
-      "obesityChart.title": "Rates of Overweight and Obesity by Age Group (2022)",
+      "obesityChart.title": "Rates of Overweight and Obesity by Age Group (2022) by Statistics Canada",
+      "description": "This bar chart shows the percentage of overweight and obese individuals across 4 age groups in 2022. The rates of obesity are represented in blue, and the rates of overweight individuals are represented in orange for readability.",
+       "description2": "This line graph demonstrates the trend of obesity rates among individuals aged 18–34 from 2021 to 2022.",
       "obesityChart.overweight": "Overweight",
       "obesityChart.obese": "Obese",
       "navbar.brand": "Obesity Dashboard",
@@ -21,8 +23,10 @@ const resources = {
   fr: {
     translation: {
       "titleRadar": "Tableau de bord sur l'obésité",
-      "dashboardIntro": "Ceci est un tableau de bord bilingue présentant les taux de surpoids et d'obésité par groupe d'âge au Canada (2022). Les données sont utilisées uniquement à des fins de visualisation.",
-      "obesityChart.title": "Taux de surpoids et d'obésité par groupe d'âge (2022)",
+      "dashboardIntro": "Taux de surpoids et d'obésité par groupe d'âge (2022) par Statistique Canada. Les données sont utilisées uniquement à des fins de visualisation.",
+      "obesityChart.title": "Taux de surpoids et d'obésité par groupe d'âge (2022) par Statistique Canada",
+      "description": "Ce graphique linéaire montre la tendance des taux d'obésité chez les personnes âgées de 18 à 34 ans entre 2021 et 2022. Les taux d'obésité sont représentés en bleu saturé, les taux de personnes en surpoids dans les groupes sont représentés en orange saturé pour une meilleure lisibilité.",
+      "description2": "Ce graphique linéaire montre la tendance des taux d'obésité chez les personnes âgées de 18 à 34 ans entre 2021 et 2022.",
       "obesityTrendChart.obese": "Obésité",
       "obesityChart.overweight": "Surpoids",
       "obesityChart.obese": "Obésité",
